@@ -1,4 +1,40 @@
-body {
-    background-color: #F5F5F5;
+/* Основні стилі */
+ul {
+    list-style: none;
 }
+
+.page {
+    background-color: #F5F5F5;
+    color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:hover {
+    color:#2196F3;
+}
+
+/* Colors */
+/* основний колір тексту color: #212121; */
+/* другий колір тексту color: #757575; */
+/* колір лого #000000 #2196F3 */
+/* колір тексту посилань при наведенні #2196F3 */
+/* колір тексту в шапці #FFFFFF */
+/* колір в підвалі #FFFFFF #FFFFFF99 */
+
+
+
+
+
+/* #Головна index.html */
+
+/* Верхня лінія <header> */
+
+/* Шапка */
+
+
+
+
+
+/* #Портфоліо portfolio.html */
+
 
