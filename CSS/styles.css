@@ -1,5 +1,18 @@
-/* Colors */
-/* основний колір тексту color: #212121; */
+/* Colors-
+     -background
+        -header background: #FFFFFF;
+        -footer background: #2F303A;
+        -primery background: #F5F5F5;
+        -secondary background: #F5F4FA;
+    -text
+        -primery text: #212121;
+        -secondary text: #757575;
+        -hero text: #FFFFFF;
+        -hover text: #2196F3;
+        -logo-blue: #2196F3;
+        -logo-black: #000000;
+- футер 
+ колір тексту color: #212121; */
 /* другий колір тексту color: #757575; */
 /* колір лого #000000 #2196F3 */
 /* колір тексту посилань при наведенні #2196F3 */
@@ -7,92 +20,63 @@
 /* колір в підвалі #FFFFFF #FFFFFF99 */
 /* header-bg #2F303A; */
 :root {
-    --primery-text-color: #212121;
+    --primery-bg-color: #212121;
     --title-text-color: #757575;
     --accent-color: #2196F3;
     --header-color: #FFFFFF;
     --header-bg: #2F303A;
 }
 
-/* Основні стилі */
+/* Загальні стилі */
 ul {
     list-style: none;
-}
-
-.page {
-    background-color: #F5F5F5;
-    color: var(--primery-text-color);
-    }
-
-.logo {
-    color:#000000
-}
-.logo1 {
-    color:#2196F3;
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus {
-    color: var(--accent-color);
 }
 
 .hidden-title {
     visibility: hidden;
 }
 
-/* header */
-.header {
-    position: absolute;
-        width: 1600px;
-        height: 600px;
-        left: 0px;
-        top: 80px;
-    color: var(--header-bg)
+/* Верхня лінія / Футер */
+.logo {
+
+}
+.menu-nav {
+
 }
 
-.header-title {
-    position: absolute;
-        width: 696px;
-        height: 120px;
-        left: 452px;
-        top: 280px;
+.adress {
     
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 60px;
-        /* or 136% */
-    
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-        color: var(--header-color)
+}
+.link {
 
 }
-.header-button {
-    position: absolute;
-        width: 216px;
-        height: 50px;
-        left: 692px;
-        top: 430px;
-color: var(--header-color);
-background-color: var(--accent-color);
+
+.link:hover,
+.link:focus {
+
+}
+.link-map {
+
 }
 
 
+/* CSS index.html */
+
+/* Герой */
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var();
+}
+/* Чим ми займаємось */
+
+/* Наша команда */
 
 
-/* #Головна index.html */
 
-/* Верхня лінія <header> */
+/* CSS portfolio.html */
 
-/* Шапка */
+/* Портфоліо */
 
-
-
-
-
-/* #Портфоліо portfolio.html */
+/* Фільтри */
 
 
