@@ -97,9 +97,9 @@ ul {
     color:var(--header-bg-color);
 }
 
-/* CSS index.html */
+        /* CSS index.html */
 
-/* Герой */
+    /* Герой */
 .hero {
     background-color:var(--footer-bg-color);
 }
@@ -119,7 +119,7 @@ ul {
     background-color: var(--header-bg-color);
 }
 
-/* Особливості */
+    /* Особливості */
 .features {
 
 }
@@ -139,7 +139,7 @@ ul {
     color:var(--secondary-text-color);
 }
 
-/* Чим ми займаємось */
+    /* Чим ми займаємось */
 .images {
 
 }
@@ -152,7 +152,7 @@ ul {
 
 }
 
-/* Наша команда */
+    /* Наша команда */
 .team {
     background-color:var(--secondary-bg-color);
 }
@@ -176,11 +176,39 @@ ul {
 
 }
 
+        /* CSS portfolio.html */
 
-/* CSS portfolio.html */
+    /* Портфоліо */
+.projects {
 
-/* Портфоліо */
+}
 
-/* Фільтри */
+.project {
+background-color:var(--header-bg-color);
+}
+
+.project-img {
+
+}
 
 
+    /* Фільтри */
+
+.filters {
+
+}
+
+.filter {
+    
+}
+
+.filters .button {
+    background-color:var(--secondary-bg-color);
+    color:var(--primery-text-color);
+}
+
+.filters .button:hover,
+.filters .button:focus {
+    color: var(--header-bg-color);
+    background-color: var(--hover-text-color);
+}
