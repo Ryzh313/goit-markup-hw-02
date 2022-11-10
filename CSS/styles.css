@@ -33,7 +33,6 @@ body {
    color:var(--primery-text-color);
 }
 
-
 ul {
     list-style: none;
 }
@@ -106,17 +105,18 @@ ul {
 }
 
 .hero-title {
-    color:var(--header-bg-color)
+    color:var(--header-bg-color);
 }
 
-.hero-button {
-    color:var(--header-bg-color);
-    background-color:var(--hover-text-color); ;
+.button {
+    color: var(--header-bg-color);
+    background-color: var(--hover-text-color);
 }
 
 .hero .button:hover,
 .hero .button:focus {
-    color:var(--hover-text-color);
+    color: var(--hover-text-color);
+    background-color: var(--header-bg-color);
 }
 
 /* Особливості */
@@ -127,8 +127,16 @@ ul {
 
 }
 
+.features-list {
+
+}
+
+.features-item {
+
+}
+
 .post {
-    color:var(--secondary-text-color)
+    color:var(--secondary-text-color);
 }
 
 /* Чим ми займаємось */
@@ -165,7 +173,7 @@ ul {
 }
 
 .card .post {
-    
+
 }
 
 
