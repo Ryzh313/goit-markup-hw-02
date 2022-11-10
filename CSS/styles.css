@@ -1,4 +1,4 @@
-/* Colors-
+ /* Colors-
      -background
         -header background: #FFFFFF;
         -footer background: #2F303A;
@@ -11,23 +11,29 @@
         -hover text: #2196F3;
         -logo-blue: #2196F3;
         -logo-black: #000000;
-- футер 
- колір тексту color: #212121; */
-/* другий колір тексту color: #757575; */
-/* колір лого #000000 #2196F3 */
-/* колір тексту посилань при наведенні #2196F3 */
-/* колір тексту в шапці #FFFFFF */
-/* колір в підвалі #FFFFFF #FFFFFF99 */
-/* header-bg #2F303A; */
+*/
+
 :root {
-    --primery-bg-color: #212121;
-    --title-text-color: #757575;
-    --accent-color: #2196F3;
-    --header-color: #FFFFFF;
-    --header-bg: #2F303A;
-}
+    --primery-bg-color:#F5F5F5;
+    --secondary-bg-color:#F5F4FA;
+    --header-bg-color:#FFFFFF;
+    --footer-bg-color:#2F303A;
+    --primery-text-color:#212121;
+    --secondary-text-color:#757575;
+    --hover-text-color:#2196F3;
+    --logo-black-color:#000000;
+    --logo-blue-color:#2196F3;
+    --footer-text-color:#FFFFFF99;
+
+}        
 
 /* Загальні стилі */
+body {
+   background-color:var(--primery-bg-color);
+   color:var(--primery-text-color);
+}
+
+
 ul {
     list-style: none;
 }
@@ -38,25 +44,45 @@ ul {
 
 /* Верхня лінія / Футер */
 .logo {
-
-}
-.menu-nav {
-
+    color:var(--logo-black-color);
 }
 
-.adress {
+.logo-blue {
+   color:var(--logo-blue-color);
+}
+
+.menu-nav .link {
+    color:var(--primery-text-color)
+}
+
+.menu .link {
+    color: var(--secondary-text-color)
+}
+
+.address {
     
 }
-.link {
 
+.link {
+    color:var(--footer-text-color)
 }
 
 .link:hover,
 .link:focus {
-
+    color:var(--hover-text-color)
 }
 .link-map {
+    color:var(--header-bg-color)
+}
 
+.link-map:hover,
+.link-map:focus {
+    color:var(--hover-text-color)
+}
+
+.address .link:hover,
+.address .link:focus {
+    color:var(--hover-text-color)
 }
 
 
