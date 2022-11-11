@@ -13,6 +13,13 @@
         -logo-black: #000000;
 */
 
+/* Fonts:
+-primery-font: Roboto
+-logo-font: Raleway
+
+font-weight: 400 500 700 900 ;
+*/
+
 :root {
     --primery-bg-color:#F5F5F5;
     --secondary-bg-color:#F5F4FA;
@@ -43,7 +50,7 @@ ul {
 
 /* Верхня лінія / Футер */
 
-.header {
+.top-line {
     background-color:var(--header-bg-color);
 }
 
