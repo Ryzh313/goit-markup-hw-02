@@ -41,6 +41,7 @@ body {
    color:var(--primery-text-color);
 
    font-family: 'roboto', sans-serif;
+   letter-spacing: 0.03em;
 }
 
 ul {
@@ -58,8 +59,12 @@ ul {
 }
 
 .logo {
+    
     color:var(--logo-black-color);
-    Font family: 'raleway';
+    font-family: 'raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 
 .logo-blue {
@@ -67,14 +72,28 @@ ul {
 }
 
 .menu-nav .link {
+    
     color:var(--primery-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
 }
 
 .menu .link {
+    
     color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .address {
+
+    font-size: 14px;
+    line-height: 1.71;
     
 }
 
@@ -88,6 +107,7 @@ ul {
 }
 .link-map {
     color:var(--header-bg-color);
+
 }
 
 .link-map:hover,
@@ -116,18 +136,53 @@ ul {
 }
 
 .hero-title {
+    
     color:var(--header-bg-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .button {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    
+    cursor: pointer;
+}
+
+.hero .button {  
+    
     color: var(--header-bg-color);
     background-color: var(--hover-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
 }
 
 .hero .button:hover,
 .hero .button:focus {
+    
     color: var(--hover-text-color);
     background-color: var(--header-bg-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
 }
 
     /* Особливості */
@@ -136,6 +191,18 @@ ul {
 }
 .features .title {
 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+}
+
+.features .post {
+        
+    font-size: 14px;
+    line-height: 1.71;
+    
 }
 
 .features-list {
@@ -157,6 +224,11 @@ ul {
 
 .images .title {
 
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
 }
 
 .img {
@@ -167,6 +239,15 @@ ul {
 .team {
     background-color:var(--secondary-bg-color);
 }
+
+.team .title {
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
 .cards {
 
 }
@@ -181,9 +262,18 @@ ul {
 
 .card .title {
 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
 }
 
 .card .post {
+
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 
 }
 
@@ -196,6 +286,20 @@ ul {
 
 .project {
 background-color:var(--header-bg-color);
+}
+
+.project .title {
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project .post {
+
+    font-size: 16px;
+    line-height: 1.88;
 }
 
 .project-img {
@@ -216,10 +320,12 @@ background-color:var(--header-bg-color);
 .filters .button {
     background-color:var(--secondary-bg-color);
     color:var(--primery-text-color);
+
 }
 
 .filters .button:hover,
 .filters .button:focus {
     color: var(--header-bg-color);
     background-color: var(--hover-text-color);
+
 }
