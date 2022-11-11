@@ -14,10 +14,11 @@
 */
 
 /* Fonts:
--primery-font: Roboto
--logo-font: Raleway
+-primery-font: Roboto 
+font-weight: 400 500 700 900;
 
-font-weight: 400 500 700 900 ;
+-logo-font: Raleway
+font-weight: 700;
 */
 
 :root {
