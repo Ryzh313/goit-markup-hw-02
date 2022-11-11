@@ -39,6 +39,8 @@ font-weight: 700;
 body {
    background-color:var(--primery-bg-color);
    color:var(--primery-text-color);
+
+   font-family: 'roboto', sans-serif;
 }
 
 ul {
@@ -57,6 +59,7 @@ ul {
 
 .logo {
     color:var(--logo-black-color);
+    Font family: 'raleway';
 }
 
 .logo-blue {
