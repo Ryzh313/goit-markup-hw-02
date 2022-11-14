@@ -38,7 +38,7 @@ font-weight: 700;
 
 /* Загальні стилі */
 body {
-   background-color:var(--primery-bg-color);
+   background-color:var(--header-bg-color);
    color:var(--primery-text-color);
 
    font-family: 'roboto', sans-serif;   
@@ -265,9 +265,6 @@ ul {
     letter-spacing: 0.03em;
 }
 
-.cards {
-
-}
 
 .card {
     background-color:var(--header-bg-color);
