@@ -65,6 +65,7 @@ ul {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
 }
 
 .logo-blue {
@@ -80,6 +81,10 @@ ul {
     letter-spacing: 0.02em;
 
 }
+.menu-nav .link.current {
+    color:var(--hover-text-color);
+}
+
 
 .menu .link {
     
@@ -94,25 +99,30 @@ ul {
 
     font-size: 14px;
     line-height: 1.71;
+    font-style: normal;
     
 }
 
 .link {
     color:var(--footer-text-color);
+    text-decoration: none;
 }
 
 .link:hover,
 .link:focus {
     color:var(--hover-text-color);
+    text-decoration: none;
 }
 .link-map {
     color:var(--header-bg-color);
+    text-decoration: none;
 
 }
 
 .link-map:hover,
 .link-map:focus {
     color:var(--hover-text-color);
+    text-decoration: none;
 }
 
 .address .link:hover,
@@ -264,7 +274,7 @@ ul {
 
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
 
 }
